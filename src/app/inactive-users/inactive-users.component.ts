@@ -1,6 +1,6 @@
 import { UsersService } from './../shared/users.service';
 import { User } from './../shared/user.model';
-import { Component, EventEmitter, Input, Output, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-inactive-users',

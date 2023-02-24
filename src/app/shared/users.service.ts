@@ -19,10 +19,7 @@ export class UsersService {
     this.countService.onAddToCount()
     return user.active = !user.active;
   }
-  onSetToActive(id: number) { 
-    this.setUserStatus(id)
-  }
-  onSetToInactive(id: number) {
+  onSetUserStatus(id: number) { 
     this.setUserStatus(id)
   }
 }
